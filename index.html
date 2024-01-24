@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>2wheel</title>
+    <link rel="shortcut icon" href="images/motocross.png" type="image/x-icon">
+    <style>
+        .manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .inter {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .poppin {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="lg:max-w-[70%] md:max-w-[768px] max-w-[375px]  mx-auto poppin">
+        <!-- header starts -->
+        <header class=" text-white relative h-[34.375rem] lg:h-[40rem]   md:h-96">
+
+            <!-- nav starts -->
+            <nav class="mx-auto bg-[#00000050] rounded-md">
+                <div class="navbar flex justify-between ">
+                    <a class="btn btn-ghost text-xl lg:hidden ">2wheel</a>
+                    <div class=" navbar-end lg:flex lg:justify-between w-auto">
+                        <div class="dropdown dropdown-bottom dropdown-end">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 -scale-x-100" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-30 *:text-[#E76F51] *:font-bold ">
+                                <li><a>House</a></li>
+                                <li><a>Shop</a></li>
+                                <li><a>News</a></li>
+                                <li><a>Contact</a></li>
+                                <li><a>Login</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-ghost text-xl hidden lg:flex ">2wheel</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a>Home</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>News</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="lg:navbar-end hidden lg:flex ">
+                        <a class="btn">Button</a>
+                    </div>
+
+                </div>
+            </nav>
+            <!-- nav ends -->
+
+            <!-- slide banner starts -->
+            <div class="">
+
+
+                <div id="default-carousel" class="absolute top-0 -z-10 w-full" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden h-[34.375rem] lg:h-[40rem]   md:h-96">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="images/slider/slide (1).jpg"
+                                class="absolute block w-full object-cover h-[34.375rem]  md:w-[95vw] lg:h-[40rem]"
+                                alt="...">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="images/slider/slide (2).jpg"
+                                class="absolute block w-full object-cover  h-[34.375rem]  md:w-[95vw] lg:h-[40rem]"
+                                alt="...">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="images/slider/slide (3).jpg"
+                                class="absolute block w-full object-cover  h-[34.375rem]  md:w-[95vw] lg:h-[40rem]"
+                                alt="...">
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="images/slider/slide (4).jpg"
+                                class="absolute block w-full object-cover  h-[34.375rem]  md:w-[95vw] lg:h-[40rem]"
+                                alt="...">
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="images/slider/slide (5).jpg"
+                                class="absolute block w-full object-cover h-[34.375rem]  md:w-[95vw] lg:h-[40rem]"
+                                alt="...">
+                        </div>
+                    </div>
+
+                    <!-- Slider controls -->
+                    <!-- <button type="button"
+                        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                        data-carousel-prev>
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M5 1 1 5l4 4" />
+                            </svg>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button"
+                        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                        data-carousel-next>
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 9 4-4-4-4" />
+                            </svg>
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </button> -->
+                </div>
+
+            </div>
+
+            <!-- slide banner ends -->
+
+            <!-- banner contents starts -->
+            <div>
+                <div class="bg-[#00000050] rounded-md p-8 flex flex-col justify-between gap-4 mt-8">
+                    <h2 class="text-pretty text-3xl">Keep Your Ride Safe At Every Time</h2>
+                    <p class="text-pretty ">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                        do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
+                        nostrud amet.</p>
+                    <button
+                        class="btn  btn-outline active:bg-[#E76F51] active:text-black border-[#E76F51] text-[#E76F51]">Purchase</button>
+                </div>
+            </div>
+            <!-- banner content ends -->
+
+        </header>
+        <!-- header ends -->
+
+        <!-- main starts -->
+        <main>
+
+            <!-- featured starts -->
+            <section>
+                <div class="flex flex-col justify-center items-center my-8 gap-4">
+                    <h1 class="text-2xl font-bold">Fetured Bikes In This Year</h1>
+                    <p class="font-semibold">Best bike collection</p>
+                </div>
+                <div
+                    class="*:w-[18rem] *:h-[15.1875rem] flex flex-col md:flex-wrap lg:flex-row justify-center items-center gap-24">
+                    <div>
+                        <img src="images/slider/bike1.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/slider/bike2.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/slider/bike3.png" alt="">
+                    </div>
+                    <div>
+                        <img src="images/slider/bike4.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- featured ends -->
+
+            <!-- news starts -->
+            <section class="p-4">
+                <div class="flex flex-col justify-center items-start my-8 gap-4">
+                    <h1 class="text-2xl font-bold">Latest News</h1>
+                </div>
+                <div>
+                    <div class="card w-[95vw] bg-base-100 shadow-xl">
+                        <figure><img src="images/others/latest1.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
+                            <div class="card-actions justify-start">
+                                <button
+                                    class="btn btn-outline active:bg-[#E76F51] active:text-black border-[#E76F51] text-[#E76F51]">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[95vw] bg-base-100 shadow-xl">
+                        <figure><img src="images/others/latest2.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
+                            <div class="card-actions justify-start">
+                                <button
+                                    class="btn btn-outline active:bg-[#E76F51] active:text-black border-[#E76F51] text-[#E76F51]">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card w-[95vw] bg-base-100 shadow-xl">
+                        <figure><img src="images/others/latest3.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
+                            <div class="card-actions justify-start">
+                                <button
+                                    class="btn btn-outline active:bg-[#E76F51] active:text-black border-[#E76F51] text-[#E76F51]">Read
+                                    More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- news ends -->
+
+            <!-- client says starts -->
+            <section>
+                <div class="flex flex-col justify-center items-center my-8 gap-4 text-center">
+                    <h2 class="text-2xl font-bold">Happy<br class="lg:hidden md:hidden">
+                        <span class="text-[#E76F51]">Clients says</span>
+                    </h2>
+                </div>
+                <div class="flex flex-col lg:flex-row gap-8">
+                    <div class="flex flex-col justify-center items-center gap-6 p-8 border-[1px] w-[370px] mx-auto">
+                        <div class="h-[10rem] w-[10rem]">
+                            <img src="images/others/user-1.png" alt="">
+                        </div>
+                        <div class="flex flex-col justify-center items-center text-center gap-4">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>Regina Miles</p>
+                            <p>Banker</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center gap-6 p-8 border-[1px] w-[370px] mx-auto">
+                        <div class="h-[10rem] w-[10rem]">
+                            <img src="images/others/user-1.png" alt="">
+                        </div>
+                        <div class="flex flex-col justify-center items-center text-center gap-4">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>Regina Miles</p>
+                            <p>Banker</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center items-center gap-6 p-8 border-[1px] w-[370px] mx-auto">
+                        <div class="h-[10rem] w-[10rem]">
+                            <img src="images/others/user-1.png" alt="">
+                        </div>
+                        <div class="flex flex-col justify-center items-center text-center gap-4">
+                            <p>Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <p>Regina Miles</p>
+                            <p>Banker</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- client says ends -->
+
+            <!-- faq starts -->
+            <section>
+                <div class="flex flex-col justify-center items-center my-8 gap-4 text-center">
+                    <h2 class="text-2xl font-bold">Frequently
+                        Asked <br class="lg:hidden md:hidden">
+                        <span class="text-[#E76F51]">Questions</span>
+                    </h2>
+                </div>
+                <div class="size-[360px] mx-auto">
+                    <img src="images//Frame (1).png" alt="">
+                </div>
+                <div>
+
+                    <div class="space-y-4 w-[95vw]">
+                        <details class="w-full border rounded-lg">
+                            <summary class="px-4 py-6 focus:outline-none focus-visible:ri">What types of motorcycles are
+                                available on your website?</summary>
+                            <p class="px-4 py-6 pt-0 ml-4 -mt-4 text-black">We offer a diverse range of motorcycles,
+                                including cruisers, sport bikes, touring bikes, dirt bikes, and more. Our inventory
+                                includes both new and used motorcycles to cater to various preferences and budgets.</p>
+                        </details>
+                        <details class="w-full border rounded-lg">
+                            <summary class="px-4 py-6 focus:outline-none focus-visible:ri">How can I search for a
+                                specific motorcycle model?</summary>
+                            <p class="px-4 py-6 pt-0 ml-4 -mt-4 text-black">Utilize our user-friendly search filters on
+                                the homepage. You can refine your search based on criteria such as brand, model, year,
+                                price range, and location to find the perfect motorcycle that suits your requirements.
+                            </p>
+                        </details>
+                        <details class="w-full border rounded-lg">
+                            <summary class="px-4 py-6 focus:outline-none focus-visible:ri">Are the motorcycles listed on
+                                your website verified and reliable?</summary>
+                            <p class="px-4 py-6 pt-0 ml-4 -mt-4 text-black">Yes, we take great care to ensure the
+                                credibility of our listings. Each motorcycle undergoes a verification process, and we
+                                encourage sellers to provide detailed information about the bike's condition, service
+                                history, and any modifications.</p>
+                        </details>
+                        <details class="w-full border rounded-lg">
+                            <summary class="px-4 py-6 focus:outline-none focus-visible:ri">Can I sell my motorcycle on
+                                your platform?</summary>
+                            <p class="px-4 py-6 pt-0 ml-4 -mt-4 text-black">Absolutely! Our website provides a
+                                hassle-free platform for individuals looking to sell their motorcycles. Navigate to the
+                                "Sell Your Bike" section, follow the easy steps, and list your motorcycle for potential
+                                buyers to discover.</p>
+                        </details>
+                    </div>
+
+                </div>
+            </section>
+            <!-- faq ends -->
+
+        </main>
+        <!-- main ends -->
+    </div>
+
+    <!-- footer starts -->
+    <footer class="footer p-10 bg-[#0B0D17] text-white">
+        <div class="flex gap-8">
+            <span><a href="">Download Now</a></span>
+            <span><a href="">License</a></span>
+        </div>
+        <div class="flex flex-col gap-6">
+            <div class="flex gap-4">
+                <span><a href="">About</a></span>
+                <span><a href="">Features</a></span>
+                <span><a href="">Pricing</a></span>
+            </div>
+            <div class="flex gap-8">
+                <span><a href="">Careers</a></span>
+                <span><a href="">Help</a></span>
+                <span><a href="">Privacy Policy</a></span>
+            </div>
+        </div>
+        <div class="hidden">
+            <p>© 2020 bike. All rights reserved</p>
+        </div>
+        <form>
+            <header class="footer-title text-2xl">Get the App</header>
+            <fieldset class="form-control w-80">
+                <div><a href=""><img src="images/others/ios.png" alt=""></a></div>
+                <br>
+                <div><a href=""><img src="images/others/android.png" alt=""></a></div>
+            </fieldset>
+        </form>
+        <div class="lg:hidden flex justify-center items-center text-center mx-auto">
+            <p>© 2020 bike. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+
+</body>
+
+</html>
